@@ -1,0 +1,33 @@
+{
+  "name": "lab-lighthouse-ci",
+  "private": true,
+  "version": "0.1.0",
+  "description": "WebPerfImpacters Lighthouse CI demo",
+  "scripts": {
+    "start": "serve src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nucliweb/lab-lighthouse-ci.git"
+  },
+  "keywords": [
+    "lighthouse",
+    "lighthouseci",
+    "webperf",
+    "performance",
+    "webperfimpacter",
+    "WebPerformanceTesting",
+    "webperftest"
+  ],
+  "author": "Joan León <joan.leon@gmail.com> (https://joanleon.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nucliweb/lab-lighthouse-ci/issues"
+  },
+  "homepage": "https://github.com/nucliweb/lab-lighthouse-ci#readme",
+  "devDependencies": {
+    "@lhci/cli": "0.9.0",
+    "serve": "13.0.2"
+  }
+}
