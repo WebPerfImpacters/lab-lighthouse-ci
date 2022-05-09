@@ -5,7 +5,7 @@
   "description": "WebPerfImpacters Lighthouse CI demo",
   "scripts": {
     "start": "serve src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lhci autorun"
   },
   "repository": {
     "type": "git",
