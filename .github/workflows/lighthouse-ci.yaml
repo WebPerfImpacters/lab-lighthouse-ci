@@ -17,3 +17,4 @@ jobs:
           ./node_modules/.bin/lhci autorun --config=./lighthouserc-ci.js
         env:
           LHCI_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+        uploadArtifacts: true
