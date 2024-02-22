@@ -14,11 +14,11 @@ module.exports = {
     },
     assert: {
       assertions: {
-        "categories:performance": ["warn", { minScore: 0.8 }],
-        "categories:accessibility": ["warn", { minScore: 0.8 }],
-        "categories:best-practices": ["warn", { minScore: 0.8 }],
-        "categories:seo": ["warn", { minScore: 0.8 }],
-        "categories.pwa": "off",
+        "categories:performance": ["warn", { minScore: 0.99 }],
+        "categories:accessibility": ["warn", { minScore: 0.99 }],
+        "categories:best-practices": ["warn", { minScore: 0.99 }],
+        "categories:seo": ["warn", { minScore: 0.99 }],
+        "categories:pwa": "off",
       },
     },
     upload: {
