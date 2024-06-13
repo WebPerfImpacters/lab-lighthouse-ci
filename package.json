@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/nucliweb/lab-lighthouse-ci#readme",
   "devDependencies": {
-    "@lhci/cli": "0.9.0",
-    "serve": "13.0.2"
+    "@lhci/cli": "0.13.0",
+    "serve": "14.2.3"
   }
 }
