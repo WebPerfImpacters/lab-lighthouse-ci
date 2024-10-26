@@ -5,7 +5,9 @@
   "description": "WebPerfImpacters Lighthouse CI demo",
   "scripts": {
     "start": "serve src",
-    "test": "lhci autorun"
+    "test": "npm run lhci:mobile",
+    "lhci:mobile": "lhci autorun",
+    "lhci:desktop": "lhci autorun --collect.settings.preset=desktop"
   },
   "repository": {
     "type": "git",
